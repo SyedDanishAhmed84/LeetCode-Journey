@@ -1,0 +1,17 @@
+class Solution(object):
+    def searchInsert(self, nums, target):
+       left,right=0,len(nums)-1
+       while left <= right:
+         mid = (left+right)//2
+         if nums[mid] < target:
+             left=mid+1
+         elif nums[mid]> target:
+             right=mid-1
+         else:
+            return mid    
+       return left 
+
+a=[1,3,5,6]
+sol=Solution()
+c=sol.searchInsert(a,5)
+print(c)               
