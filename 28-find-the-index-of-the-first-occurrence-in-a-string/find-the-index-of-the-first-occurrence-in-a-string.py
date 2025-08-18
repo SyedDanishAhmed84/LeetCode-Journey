@@ -8,5 +8,12 @@ class Solution(object):
        for c in range(a-b+1):
         if haystack[c:c+b] == needle:
             return c
-       return -1      
+       return -1
+
+haystack="sadbutsad"
+needle="sad"
+sol=Solution()
+sol.strStr(haystack,needle)   
+print(haystack)
+print(needle) 
         
