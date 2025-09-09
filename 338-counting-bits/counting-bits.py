@@ -7,6 +7,8 @@ class Solution(object):
 
 sol=Solution()
 print(sol.countBits(0))
-print(sol.countBits(0))
-print(sol.countBits(0))
-print(sol.countBits(0))
+print(sol.countBits(1))
+print(sol.countBits(2))
+print(sol.countBits(3))
+print(sol.countBits(4))
+print(sol.countBits(5))
